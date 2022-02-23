@@ -512,3 +512,4 @@ org.postgresql.util.PSQLException: ERROR: relation "estudiante" does not exist
 2022-02-22 19:49:25.404  INFO 23296 --- [RMI TCP Connection(2)-192.168.1.14] o.a.c.c.C.[.[.[/api-estudiantes]         : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2022-02-22 19:49:25.405  INFO 23296 --- [RMI TCP Connection(2)-192.168.1.14] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2022-02-22 19:49:25.407  INFO 23296 --- [RMI TCP Connection(2)-192.168.1.14] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-02-22 20:25:38.876  WARN 23296 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m20s860ms250µs900ns).
