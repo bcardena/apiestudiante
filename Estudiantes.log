@@ -513,3 +513,21 @@ org.postgresql.util.PSQLException: ERROR: relation "estudiante" does not exist
 2022-02-22 19:49:25.405  INFO 23296 --- [RMI TCP Connection(2)-192.168.1.14] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2022-02-22 19:49:25.407  INFO 23296 --- [RMI TCP Connection(2)-192.168.1.14] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
 2022-02-22 20:25:38.876  WARN 23296 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m20s860ms250µs900ns).
+2022-02-22 21:28:03.234  INFO 17212 --- [Test worker] c.c.b.a.ApiestudiantesApplicationTests   : Starting ApiestudiantesApplicationTests using Java 11.0.10 on pb0b0891934 with PID 17212 (started by bcardena in D:\Repositorios\apiestudiantes)
+2022-02-22 21:28:03.236  INFO 17212 --- [Test worker] c.c.b.a.ApiestudiantesApplicationTests   : No active profile set, falling back to default profiles: default
+2022-02-22 21:28:07.262  INFO 17212 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-22 21:28:07.412  INFO 17212 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 127 ms. Found 1 JPA repository interfaces.
+2022-02-22 21:28:11.183  INFO 17212 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-02-22 21:28:13.350  INFO 17212 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-02-22 21:28:13.676  INFO 17212 --- [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-22 21:28:13.979  INFO 17212 --- [Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-02-22 21:28:14.923  INFO 17212 --- [Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-22 21:28:15.574  INFO 17212 --- [Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-02-22 21:28:19.299  INFO 17212 --- [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-22 21:28:19.336  INFO 17212 --- [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-22 21:28:24.321  WARN 17212 --- [Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-22 21:28:30.215  INFO 17212 --- [Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-02-22 21:28:30.609  INFO 17212 --- [Test worker] c.c.b.a.ApiestudiantesApplicationTests   : Started ApiestudiantesApplicationTests in 29.321 seconds (JVM running for 43.546)
+2022-02-22 21:28:31.445  INFO 17212 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-22 21:28:31.452  INFO 17212 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-02-22 21:28:32.339  INFO 17212 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
