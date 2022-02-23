@@ -28,9 +28,5 @@ spring:
 logging:
   level:
     root: INFO
-
-  file:
-    name: Estudiantes.log
-    root: ERROR
   file:
     name: Estudiantes.log
