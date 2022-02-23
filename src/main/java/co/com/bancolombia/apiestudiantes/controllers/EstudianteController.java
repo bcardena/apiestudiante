@@ -30,7 +30,6 @@ public class EstudianteController {
         URI uri = new URI("/estudiante");
         estudianteService.crearEstudiante(estudianteDTO);
         return ResponseEntity.created(uri).body(estudianteDTO);
-        Logger
         //return ResponseEntity.status(HttpStatus.CREATED).body("Creado corretamente");
     }
 }
