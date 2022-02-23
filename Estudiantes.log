@@ -531,3 +531,27 @@ org.postgresql.util.PSQLException: ERROR: relation "estudiante" does not exist
 2022-02-22 21:28:31.445  INFO 17212 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2022-02-22 21:28:31.452  INFO 17212 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2022-02-22 21:28:32.339  INFO 17212 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-02-22 21:37:33.473  INFO 2752 --- [main] c.c.b.a.ApiestudiantesApplication        : Starting ApiestudiantesApplication using Java 11.0.10 on pb0b0891934 with PID 2752 (D:\Repositorios\apiestudiantes\build\classes\java\main started by bcardena in D:\Repositorios\apiestudiantes)
+2022-02-22 21:37:33.477  INFO 2752 --- [main] c.c.b.a.ApiestudiantesApplication        : No active profile set, falling back to default profiles: default
+2022-02-22 21:37:35.976  INFO 2752 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-22 21:37:36.102  INFO 2752 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 106 ms. Found 1 JPA repository interfaces.
+2022-02-22 21:37:37.154  INFO 2752 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-02-22 21:37:37.170  INFO 2752 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-22 21:37:37.171  INFO 2752 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-22 21:37:37.534  INFO 2752 --- [main] o.a.c.c.C.[.[.[/api-estudiantes]         : Initializing Spring embedded WebApplicationContext
+2022-02-22 21:37:37.535  INFO 2752 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3950 ms
+2022-02-22 21:37:39.255  INFO 2752 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-02-22 21:37:40.792  INFO 2752 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-02-22 21:37:40.913  INFO 2752 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-22 21:37:41.088  INFO 2752 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-02-22 21:37:41.763  INFO 2752 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-22 21:37:42.060  INFO 2752 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-02-22 21:37:43.154  INFO 2752 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-22 21:37:43.177  INFO 2752 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-22 21:37:43.837  WARN 2752 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-22 21:37:45.055  INFO 2752 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-02-22 21:37:45.175  INFO 2752 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/api-estudiantes'
+2022-02-22 21:37:45.218  INFO 2752 --- [main] c.c.b.a.ApiestudiantesApplication        : Started ApiestudiantesApplication in 13.031 seconds (JVM running for 18.463)
+2022-02-22 21:37:47.637  INFO 2752 --- [RMI TCP Connection(1)-192.168.1.14] o.a.c.c.C.[.[.[/api-estudiantes]         : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-22 21:37:47.638  INFO 2752 --- [RMI TCP Connection(1)-192.168.1.14] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-02-22 21:37:47.644  INFO 2752 --- [RMI TCP Connection(1)-192.168.1.14] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
